@@ -19,11 +19,11 @@ const Robotics: React.FC = () => {
   return (
     <div className="space-y-16">
       <section className="text-center pt-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900">
           Pioneering Modern
-          <span className="block text-cyan-400">Robotics</span>
+          <span className="block text-red-600">Robotics</span>
         </h1>
-        <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Creating efficient hardware and intelligent robots through advanced learning techniques.
         </p>
       </section>
@@ -39,11 +39,11 @@ const Robotics: React.FC = () => {
         </div>
       </PageSection>
       
-      <section className="py-12 md:py-16 bg-gray-800/50 rounded-lg">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          The <span className="text-cyan-400">Humanoid</span> Project
+      <section className="py-12 md:py-16 bg-gray-100/50 rounded-lg border border-gray-200">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
+          The <span className="text-red-600">Humanoid</span> Project
         </h2>
-        <div className="max-w-4xl mx-auto text-lg text-gray-300 text-center">
+        <div className="max-w-4xl mx-auto text-lg text-gray-700 text-center">
             <p className="mb-10 max-w-3xl mx-auto">
                 We are actively working with our partners to develop humanoids capable of working in industry and perform real World work. Humanoids will be trained through reinforcement learning and imitation learning techniques to be autonomous agents for various domains.
             </p>

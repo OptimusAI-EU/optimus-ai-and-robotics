@@ -31,7 +31,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-200 font-sans flex flex-col">
+    <div className="min-h-screen bg-white text-gray-800 font-sans flex flex-col">
       <Header currentPage={currentPage} onNavClick={handleNavClick} />
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {renderPage()}

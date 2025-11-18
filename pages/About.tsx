@@ -14,11 +14,11 @@ const About: React.FC = () => {
   return (
     <div className="space-y-16">
       <section className="text-center pt-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900">
           Engineering the Future with
-          <span className="block text-cyan-400">Intelligent Systems</span>
+          <span className="block text-red-600">Intelligent Systems</span>
         </h1>
-        <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Optimus AI and Robotics is an Artificial Intelligence (AI) First company that provides products and services powered by AI.
         </p>
       </section>

@@ -13,11 +13,11 @@ const Odin: React.FC = () => {
   return (
     <div className="space-y-16">
       <section className="text-center pt-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900">
           ODIN: On Device
-          <span className="block text-cyan-400">Intelligence</span>
+          <span className="block text-red-600">Intelligence</span>
         </h1>
-        <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Secure, private, and efficient AI that runs locally on your hardware.
         </p>
       </section>
